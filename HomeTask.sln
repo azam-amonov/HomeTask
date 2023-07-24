@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeTask", "HomeTask\HomeTask.csproj", "{0CC94B71-D18B-40A5-B8C2-A5E2760B39CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HT_1", "HT_1", "{0489CFC2-3B73-43A4-A9B2-840E97F9C9E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_Task_1", "Home_Task_1\Home_Task_1.csproj", "{3826E7F9-445B-4127-8DB7-4342CAE19377}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HT_10", "HT_10", "{4C5C74D5-A33A-4151-B6F7-2987E71AB636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HT_10", "HT_10\HT_10.csproj", "{9F0154BF-2ECB-4C4A-A388-1851B186363C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CC94B71-D18B-40A5-B8C2-A5E2760B39CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC94B71-D18B-40A5-B8C2-A5E2760B39CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC94B71-D18B-40A5-B8C2-A5E2760B39CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC94B71-D18B-40A5-B8C2-A5E2760B39CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3826E7F9-445B-4127-8DB7-4342CAE19377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3826E7F9-445B-4127-8DB7-4342CAE19377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3826E7F9-445B-4127-8DB7-4342CAE19377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3826E7F9-445B-4127-8DB7-4342CAE19377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F0154BF-2ECB-4C4A-A388-1851B186363C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F0154BF-2ECB-4C4A-A388-1851B186363C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F0154BF-2ECB-4C4A-A388-1851B186363C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F0154BF-2ECB-4C4A-A388-1851B186363C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3826E7F9-445B-4127-8DB7-4342CAE19377} = {0489CFC2-3B73-43A4-A9B2-840E97F9C9E9}
+		{9F0154BF-2ECB-4C4A-A388-1851B186363C} = {4C5C74D5-A33A-4151-B6F7-2987E71AB636}
+	EndGlobalSection
+EndGlobal

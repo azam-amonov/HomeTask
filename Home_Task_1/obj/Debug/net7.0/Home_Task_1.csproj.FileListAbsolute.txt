@@ -1,0 +1,15 @@
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/bin/Debug/net7.0/Home_Task_1
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/bin/Debug/net7.0/Home_Task_1.deps.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/bin/Debug/net7.0/Home_Task_1.runtimeconfig.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/bin/Debug/net7.0/Home_Task_1.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/bin/Debug/net7.0/Home_Task_1.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/obj/Debug/net7.0/Home_Task_1.csproj.AssemblyReference.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/obj/Debug/net7.0/Home_Task_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/obj/Debug/net7.0/Home_Task_1.AssemblyInfoInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/obj/Debug/net7.0/Home_Task_1.AssemblyInfo.cs
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/obj/Debug/net7.0/Home_Task_1.csproj.CoreCompileInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/obj/Debug/net7.0/Home_Task_1.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/obj/Debug/net7.0/refint/Home_Task_1.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/obj/Debug/net7.0/Home_Task_1.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/obj/Debug/net7.0/Home_Task_1.genruntimeconfig.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/Home_Task_1/obj/Debug/net7.0/ref/Home_Task_1.dll
