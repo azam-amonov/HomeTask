@@ -1,0 +1,41 @@
+N11-HT1
+
+// Vazifa sharti 
+Todo List dasturi tuzing
+
+ToDo - vazifalar 
+ToDoList - vazifalar ro'yxati
+
+- vazifa uchun ToDo modelidan foydalaning ( vazifa nomi va bajailgan/bajarilmaganligi )
+- vazifalarni boshqarish uchun ToDoList servisidan foydalaning
+- ToDoList servisi ichida ToDo modellari kolleksiyasi bo'ladi
+- ToDoLists servisida quyidagi metodlar bo'lsin
+  Display - hamma vazifalarni ekranga chiqarish
+  MarkDone - bitta vazifani bajarilgan deb belgilash
+  Add - vazifa qo'shish 
+  
+  
+// Business logic
+- ToDo moedel yarataman (string -> Vzifa nomi, bool -> bajarilganligi)
+- ToDo list service ->
+    - Display -> o'ziga  todo tipidifagi lsit qabul qiladi va barcha vazifalarni ko'rsatadi
+    - Mark as done -> o'ziga todo tipda list qabul qiladi, vzifa indexi orqali murojaat 
+    qilib bajarilgan deb belgilaydi
+    - Add -> o'ziga todo tipida list qabul qiladi, qo'shib qo'yadi
+    
+1. Dasturni ishga tushiring
+  - foydalanuvchiga vazifa qo'shish, vazifani tugallandi deb belgilash va hamma vazifalarni ekranga chiqarish buyruqlarini ko'rsating va tanlashni so'rang
+  - tanlangan buyruqqa ko'ra ToDoList servisidan foydalaning
+
+Example 
+
+Dastur :  Choose a command ( display all - d / mark done - m / add - a )
+Foydalanuvchi : m
+Dastur : Choose which task
+
+1 Planning for today
+2 Cooking
+3 Doing homework
+
+Foydalanuvchi : 2
+Dastur : Task "Cooking" marked as done

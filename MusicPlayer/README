@@ -1,0 +1,33 @@
+N11-HT2
+// Vazifa sharti
+Music Player dasturi tuzing
+
+Music - musiqa
+Music Player - musiqalarni ijro etuvchi dastur
+
+- musiqani ifodalovchi Track modelidan foydalaning ( name, author )
+- musiqalarni ijro etish uchun MusicPlayer servisidan foydalaning
+- MusicPlayer servisida musiqalarni saqlovchi kolleksiya field va hozirgi ijro etilayotgan musiqani saqlovchi field bo'lsin
+- MusicPlayer servisida quyidagi metodlar bo'lsin
+  Next - keyingi musiqaga o'tkazish ( hozirgi musiqani saqlovchi fieldga keyingi musiqa qiymati berilsin, agar kolleksiya oxiri bo'lsa 1- musiqa )
+  Previous - oldingi musiqaga o'tkazish ( hozirgi musiqani saqlovchi fieldga oldingi musiqa qiymati berilsin, agar kolleksiya boshi bo'lsa oxirgi musiqa )
+  Pause - ekranga "Paused - musiqa nomi" bilan chiqsin
+  Play - ekranga "Playing - musiqa nomi" bilan chiqsin
+
+- MusicPlayer servicida musiqalarni saqlovchi kolleksiyaga 3 musiqa qo'shing
+
+Example 
+
+Dastur :  Choose a command ( next - n, previous - p, pause - pause, play - play )
+
+Foydalanuvchi : next
+Dastur : Playing David Celeste - Aurelia Aurita
+
+Dastur :  Choose a command ( next - n, previous - p, pause - pause, play - play )
+Foydalanuvchi : pause
+Dastur : Paused David Celeste - Aurelia Aurita
+
+Dastur :  Choose a command ( next - n, previous - p, pause - pause, play - play )
+Foydalanuvchi : next
+Dastur : "End of tracks, playing the first song - Joachim Pastor - Millenium
+

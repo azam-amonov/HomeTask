@@ -1,0 +1,15 @@
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/bin/Debug/net7.0/TodoList
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/bin/Debug/net7.0/TodoList.deps.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/bin/Debug/net7.0/TodoList.runtimeconfig.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/bin/Debug/net7.0/TodoList.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/bin/Debug/net7.0/TodoList.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/obj/Debug/net7.0/TodoList.csproj.AssemblyReference.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/obj/Debug/net7.0/TodoList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/obj/Debug/net7.0/TodoList.AssemblyInfoInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/obj/Debug/net7.0/TodoList.AssemblyInfo.cs
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/obj/Debug/net7.0/TodoList.csproj.CoreCompileInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/obj/Debug/net7.0/TodoList.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/obj/Debug/net7.0/refint/TodoList.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/obj/Debug/net7.0/TodoList.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/obj/Debug/net7.0/TodoList.genruntimeconfig.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/TodoList/obj/Debug/net7.0/ref/TodoList.dll
