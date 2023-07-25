@@ -25,8 +25,6 @@ public class ToDoService
         int i = 0;
         foreach (ToDoModel todo in models)
         {
-            // var isDone = todo.IsDone ? "Bajarilgan" : "Bajarilmagan";
-            
             Console.WriteLine($"{++i}. {todo.Name}:  {todo.IsDone}");
         }
     }

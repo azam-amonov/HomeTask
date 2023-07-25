@@ -14,47 +14,38 @@ service.AddToDo(todo);
 service.AddToDo(todo2);
 service.AddToDo(todo3);
 service.AddToDo(todo4);
+Start();
 
-// service.Display();
-// service.AddNewToDo();
-// service.MarkAsDone();
-
-TodoView view = new TodoView();
-view.Start();
-public class TodoView
+void MainMenu()
 {
-    ToDoService service = new ToDoService();
-    public void MainMenu()
-    {
-        Console.WriteLine("1. Add new task\n" +
-                          "2. Mark as done\n" +
-                          "3. Display all tasks\n" +
-                          "0. Exit");
-    }
+    Console.WriteLine("1. Add new task\n" +
+                      "2. Mark as done\n" +
+                      "3. Display all tasks\n" +
+                      "0. Exit");
+}
 
-    public void Start()
+void Start()
+{
+    MainMenu();
+    while (true)
     {
-        MainMenu();
-        while (true)
+        try
         {
-            try
-            {
-                Console.Write("Enter Command: ");
-                int choice = int.Parse(Console.ReadLine());
-                if (choice == 1)
-                    service.AddNewToDo();
-                if (choice == 2)
-                    service.MarkAsDone();
-                if (choice == 3)
-                    service.Display();
-                if (choice == 0)
-                    break;
-            }
-            catch (TypeAccessException e)
-            {
-                Console.WriteLine("Enter true Command");
-                throw;
-            }
+            Console.Write("Enter Command: ");
+            int choice = int.Parse(Console.ReadLine());
+            if (choice == 1)
+                service.AddNewToDo();
+            if (choice == 2)
+                service.MarkAsDone();
+            if (choice == 3)
+                service.Display();
+            if (choice == 0)
+                break;
+        }
+        catch (TypeAccessException e)
+        {
+            Console.WriteLine("Enter true Command");
+            throw;
         }
     }
 }
