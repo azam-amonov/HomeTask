@@ -50,19 +50,20 @@ public class PasGenerator
         while (length != 0 )
         {
             int randType = rand.Next(5);
-            
-            if (pars.Letters && randType == 0)
+
+            if (Letters && randType == 0)
                 password.Append((char)rand.Next('a', 'z'));
-            if (pars.Letters && randType == 1)
+            else if (Letters && randType == 1)
                 password.Append((char)rand.Next('A', 'Z'));
-            if (pars.Digits && randType == 2)
-                password.Append((char)rand.Next('0', '9'));
-            if (pars.Symbols && randType == 3)
+            else if (Symbols && randType == 2)
                 password.Append((char)rand.Next('!', '&'));
-            if (pars.Symbols && randType == 4)
+            else if (Symbols && randType == 3)
                 password.Append((char)rand.Next('?', '@'));
+            else if (Digits && randType == 4)
+                password.Append((char)rand.Next('0', '9'));
             --length;
         }
+        
         
         return password.ToString();
     }
