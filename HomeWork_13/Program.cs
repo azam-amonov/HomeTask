@@ -27,5 +27,8 @@ Console.WriteLine("********************************");
 // PasswordGenerator generator = new PasswordGenerator(8, true);
 // generator.Generate();
 
-SecurePasswordGenerator generator2 = new SecurePasswordGenerator(6, true, true);
-generator2.Generate(true);
+// SecurePasswordGenerator generator2 = new SecurePasswordGenerator(6, true, true);
+// generator2.Generate(true);
+
+UniquePasswordGenerator generator = new UniquePasswordGenerator(6, 8);
+generator.GenerateUniquePassword();

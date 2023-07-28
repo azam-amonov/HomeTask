@@ -73,10 +73,11 @@ public class SecurePasswordGenerator : PasswordGenerator
     {
     }
 
-    public new void Generate(bool symbols)
+    public string Generate(bool symbols)
     {
         StringBuilder password = new StringBuilder();
         Random rand = new Random();
+        
         int length = Length;
         Symbols = symbols;
         
@@ -97,7 +98,7 @@ public class SecurePasswordGenerator : PasswordGenerator
             --length;
         }
         
-        Console.WriteLine(password);
+        return password.ToString();
     }
     
 }
@@ -109,3 +110,66 @@ public class SecurePasswordGenerator : PasswordGenerator
 //     - yaratilgan passowrdlar kolleksiyaga saqlab borilsin
 //     - agar yaratilgan password allaqachon bor bo'lsa boshqasi yaratilsin
 //     - bitta object yarating, password yarating va ekranga chiqaring
+class  UniquePasswordGenerator : SecurePasswordGenerator
+{
+    public bool Symbols { get; set; } = true;
+    public int Count { get; set;}
+    
+    public UniquePasswordGenerator(int count, int length, bool letters = true, bool digits = true, bool symbols = true) 
+        : base(length, letters, digits)
+    {
+        Count = count;
+        Symbols = symbols;
+    }
+
+    public void GenerateUniquePassword()
+    { 
+        List<string> passwords = new List<string>();
+        int i = 0;
+        
+        while (Count != 0)
+        {
+            var pass = Generate(true);
+            if(passwords.Contains(pass))
+                continue;
+            else
+                passwords.Add(pass);
+            Count--;
+        }
+
+        foreach (var p in passwords)
+        {
+            Console.WriteLine(p);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
