@@ -1,0 +1,15 @@
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/obj/Debug/net7.0/HomeWork_14.csproj.AssemblyReference.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/obj/Debug/net7.0/HomeWork_14.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/obj/Debug/net7.0/HomeWork_14.AssemblyInfoInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/obj/Debug/net7.0/HomeWork_14.AssemblyInfo.cs
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/obj/Debug/net7.0/HomeWork_14.csproj.CoreCompileInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/bin/Debug/net7.0/HomeWork_14
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/bin/Debug/net7.0/HomeWork_14.deps.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/bin/Debug/net7.0/HomeWork_14.runtimeconfig.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/bin/Debug/net7.0/HomeWork_14.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/bin/Debug/net7.0/HomeWork_14.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/obj/Debug/net7.0/HomeWork_14.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/obj/Debug/net7.0/refint/HomeWork_14.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/obj/Debug/net7.0/HomeWork_14.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/obj/Debug/net7.0/HomeWork_14.genruntimeconfig.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_14/obj/Debug/net7.0/ref/HomeWork_14.dll
