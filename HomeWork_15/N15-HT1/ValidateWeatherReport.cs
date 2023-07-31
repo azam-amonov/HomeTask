@@ -17,29 +17,52 @@ namespace HomeWork_15.N15_HT1;
 /// Datalar private dictionary-da saqlanadi
 /// </summary>
 #endregion
-public class ValidateWeatherReport: WeatherReports
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+public class ValidateWeatherReport : WeatherReports
 {
+    private List<WeatherDataModel> _weatherData = new List<WeatherDataModel>();
+
     public override string AddWeatherData(WeatherDataModel weatherDataModel)
     {
-        //base.AddWeatherData(weatherDataModel);
-        var modelcha = _weatherData.Values.FirstOrDefault(w => 
-                        weatherDataModel.Date == w.Date && w.Location == weatherDataModel.Location);
-        if (modelcha is not null)
+        var existingData = _weatherData.FirstOrDefault(w 
+                        => w.Date.Day == weatherDataModel.Date.Day && w.Location == weatherDataModel.Location);
+
+        if (existingData != null)
         {
-            modelcha = weatherDataModel;
-            return "Updated weather data";
+            existingData.Humidity = weatherDataModel.Humidity;
+            existingData.WindSpeed = weatherDataModel.WindSpeed;
+            existingData.Temperature = weatherDataModel.Temperature;
+            existingData.WeatherDescription = weatherDataModel.WeatherDescription;
+            Console.WriteLine($"{existingData.Date} sanadagi {existingData.Location} uchun ma'lumoti yangilandi!");
         }
         else
         {
-            _weatherData[weatherDataModel.Location] = weatherDataModel;
+            _weatherData.Add(weatherDataModel);
+            Console.WriteLine("Yangi ma'lumot qo'shildi");
         }
 
-        return "New data added";
+        return "Success!";
     }
 
-    public override string GetWeatherData(int weather)
+    private WeatherDataModel FindWeatherData(int weatherDate)
     {
-       return base.GetWeatherData(weather);
-        
+        foreach (var w in _weatherData)
+        {
+            if (w.Date.Day == weatherDate)
+                return w;
+        }
+        return null;
+    }
+
+    public override string GetWeatherData(int weatherDate)
+    {
+        var resWeather = FindWeatherData(weatherDate);
+        if (resWeather is null)
+            return "Bu kunda ma'lumot topilmadi!";
+        else
+            return resWeather.ToString();
     }
 }

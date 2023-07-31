@@ -20,5 +20,8 @@ namespace HomeWork_15.N15_HT1;
 
 public class UltimateWeatherReport : ValidateWeatherReport
 {
-    
+    private void SortData()
+    {
+        
+    }
 }

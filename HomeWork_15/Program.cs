@@ -2,6 +2,8 @@
 
 using HomeWork_15.N15_HT1;
 #region  Birinchi ota klass 
+// WeatherReports weatherReports = new WeatherReports();
+//
 // weatherReports.AddWeatherData
 // (new WeatherDataModel
 // {
@@ -12,14 +14,12 @@ using HomeWork_15.N15_HT1;
 //                 WindSpeed = 7,
 //                 Humidity = 5
 // });
-
-// var s = weatherReports.GetWeatherData(3);
+//
+// var s = weatherReports.GetWeatherData(31);
 // Console.WriteLine(s);
 
 
 #endregion
-WeatherReports weatherReports = new WeatherReports();
-
 
 #region Ikkinchi klass
 ValidateWeatherReport validateWeatherReport = new ValidateWeatherReport();
@@ -33,7 +33,6 @@ var x = validateWeatherReport.AddWeatherData(new WeatherDataModel
                 WindSpeed = 7,
                 Humidity = 5
 });
-Console.WriteLine(x);
 
 var xxx = validateWeatherReport.AddWeatherData(new WeatherDataModel 
 {
@@ -44,21 +43,9 @@ var xxx = validateWeatherReport.AddWeatherData(new WeatherDataModel
                 WindSpeed = 7,
                 Humidity = 5
 });
-Console.WriteLine(xxx);
-var g = validateWeatherReport.AddWeatherData(new WeatherDataModel 
-{
-                Date = new DateOnly(2023,07,3),
-                Location = "New York",
-                Temperature = 38,
-                WeatherDescription = "Clear",
-                WindSpeed = 7,
-                Humidity = 5
-});
-var c = validateWeatherReport.GetWeatherData(3);
 
-Console.WriteLine(g);
-Console.WriteLine(c);
-
+var t = validateWeatherReport.GetWeatherData(23);
+Console.WriteLine(t);
 
 #endregion 
 

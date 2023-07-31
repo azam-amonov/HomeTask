@@ -25,12 +25,12 @@ namespace HomeWork_15.N15_HT1;
 public class WeatherReports
 {
     WeatherDataModel _wertherModel = new WeatherDataModel();
-    protected Dictionary<string, WeatherDataModel> _weatherData = new Dictionary<string, WeatherDataModel>();
+    protected List<WeatherDataModel> _weatherData = new List<WeatherDataModel>();
 
     
     public virtual string AddWeatherData(WeatherDataModel weatherDataModel)
     {
-        _weatherData[weatherDataModel.Location] = weatherDataModel;
+        _weatherData.Add(weatherDataModel);
         return "Success";
     }
    
@@ -38,8 +38,8 @@ public class WeatherReports
     {
         foreach (var w in _weatherData)
         {
-            if (w.Value.Date.Day == weatherDate)
-                return w.Value;
+            if (w.Date.Day == weatherDate)
+                return w;
         }
         return null!;
     }
@@ -58,64 +58,64 @@ public class WeatherReports
 /// </summary>
      public WeatherReports()
      {
-         AddWeatherData(new WeatherDataModel
-         {
-             Date = new DateOnly(2023, 08, 2),
-             Location = "Tashkent",
-             Temperature = 38,
-             WeatherDescription = "Clear",
-             WindSpeed = 7,
-             Humidity = 33
-         });
-
-         AddWeatherData(new WeatherDataModel
-         {
-             Date = new DateOnly(2023, 08, 3),
-             Location = "New York",
-             Temperature = 29,
-             WeatherDescription = "Partly Cloudy",
-             WindSpeed = 12,
-             Humidity = 55
-         });
-
-         AddWeatherData(new WeatherDataModel
-         {
-             Date = new DateOnly(2023, 08, 4),
-             Location = "Sydney",
-             Temperature = 24,
-             WeatherDescription = "Rainy",
-             WindSpeed = 18,
-             Humidity = 80
-         });
-
-         AddWeatherData(new WeatherDataModel
-         {
-             Date = new DateOnly(2023, 08, 5),
-             Location = "London",
-             Temperature = 22,
-             WeatherDescription = "Overcast",
-             WindSpeed = 9,
-             Humidity = 70
-         });
-
-         AddWeatherData(new WeatherDataModel
-         {
-             Date = new DateOnly(2023, 08, 6),
-             Location = "Tokyo",
-             Temperature = 31,
-             WeatherDescription = "Sunny",
-             WindSpeed = 14,
-             Humidity = 50
-         });
-
-         AddWeatherData(new WeatherDataModel
-         {
-             Date = new DateOnly(2023, 08, 7),
-             Location = "Cairo",
-             Temperature = 42,
-             WeatherDescription = "Hot and Dry",
-             WindSpeed = 6,
-             Humidity = 25
-         });
+         // AddWeatherData(new WeatherDataModel
+         // {
+         //     Date = new DateOnly(2023, 08, 2),
+         //     Location = "Tashkent",
+         //     Temperature = 38,
+         //     WeatherDescription = "Clear",
+         //     WindSpeed = 7,
+         //     Humidity = 33
+         // });
+         //
+         // AddWeatherData(new WeatherDataModel
+         // {
+         //     Date = new DateOnly(2023, 08, 3),
+         //     Location = "New York",
+         //     Temperature = 29,
+         //     WeatherDescription = "Partly Cloudy",
+         //     WindSpeed = 12,
+         //     Humidity = 55
+         // });
+         //
+         // AddWeatherData(new WeatherDataModel
+         // {
+         //     Date = new DateOnly(2023, 08, 4),
+         //     Location = "Sydney",
+         //     Temperature = 24,
+         //     WeatherDescription = "Rainy",
+         //     WindSpeed = 18,
+         //     Humidity = 80
+         // });
+         //
+         // AddWeatherData(new WeatherDataModel
+         // {
+         //     Date = new DateOnly(2023, 08, 5),
+         //     Location = "London",
+         //     Temperature = 22,
+         //     WeatherDescription = "Overcast",
+         //     WindSpeed = 9,
+         //     Humidity = 70
+         // });
+         //
+         // AddWeatherData(new WeatherDataModel
+         // {
+         //     Date = new DateOnly(2023, 08, 6),
+         //     Location = "Tokyo",
+         //     Temperature = 31,
+         //     WeatherDescription = "Sunny",
+         //     WindSpeed = 14,
+         //     Humidity = 50
+         // });
+         //
+         // AddWeatherData(new WeatherDataModel
+         // {
+         //     Date = new DateOnly(2023, 08, 7),
+         //     Location = "Cairo",
+         //     Temperature = 42,
+         //     WeatherDescription = "Hot and Dry",
+         //     WindSpeed = 6,
+         //     Humidity = 25
+         // });
      }
 }
