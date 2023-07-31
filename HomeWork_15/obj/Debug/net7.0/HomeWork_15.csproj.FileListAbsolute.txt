@@ -1,0 +1,15 @@
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/bin/Debug/net7.0/HomeWork_15
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/bin/Debug/net7.0/HomeWork_15.deps.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/bin/Debug/net7.0/HomeWork_15.runtimeconfig.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/bin/Debug/net7.0/HomeWork_15.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/bin/Debug/net7.0/HomeWork_15.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/obj/Debug/net7.0/HomeWork_15.csproj.AssemblyReference.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/obj/Debug/net7.0/HomeWork_15.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/obj/Debug/net7.0/HomeWork_15.AssemblyInfoInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/obj/Debug/net7.0/HomeWork_15.AssemblyInfo.cs
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/obj/Debug/net7.0/HomeWork_15.csproj.CoreCompileInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/obj/Debug/net7.0/HomeWork_15.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/obj/Debug/net7.0/refint/HomeWork_15.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/obj/Debug/net7.0/HomeWork_15.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/obj/Debug/net7.0/HomeWork_15.genruntimeconfig.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_15/obj/Debug/net7.0/ref/HomeWork_15.dll
