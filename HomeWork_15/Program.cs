@@ -22,31 +22,40 @@ using HomeWork_15.N15_HT1;
 #endregion
 
 #region Ikkinchi klass
-ValidateWeatherReport validateWeatherReport = new ValidateWeatherReport();
+// ValidateWeatherReport validateWeatherReport = new ValidateWeatherReport();
+//
+// var x = validateWeatherReport.AddWeatherData(new WeatherDataModel 
+// {
+//                 Date = new DateOnly(2023,07,23),
+//                 Location = "Bukhara",
+//                 Temperature = 38,
+//                 WeatherDescription = "Clear",
+//                 WindSpeed = 7,
+//                 Humidity = 5
+// });
+//
+// var xxx = validateWeatherReport.AddWeatherData(new WeatherDataModel 
+// {
+//                 Date = new DateOnly(2023,07,23),
+//                 Location = "Bukhara",
+//                 Temperature = 38,
+//                 WeatherDescription = "Clear",
+//                 WindSpeed = 7,
+//                 Humidity = 5
+// });
 
-var x = validateWeatherReport.AddWeatherData(new WeatherDataModel 
-{
-                Date = new DateOnly(2023,07,23),
-                Location = "Bukhara",
-                Temperature = 38,
-                WeatherDescription = "Clear",
-                WindSpeed = 7,
-                Humidity = 5
-});
+// var t = validateWeatherReport.GetWeatherData(23);
+// Console.WriteLine(t);
 
-var xxx = validateWeatherReport.AddWeatherData(new WeatherDataModel 
-{
-                Date = new DateOnly(2023,07,23),
-                Location = "Bukhara",
-                Temperature = 38,
-                WeatherDescription = "Clear",
-                WindSpeed = 7,
-                Humidity = 5
-});
+#endregion
 
-var t = validateWeatherReport.GetWeatherData(23);
-Console.WriteLine(t);
+#region 3 class
 
-#endregion 
+UltimateWeatherReport ultimateWeatherReport = new UltimateWeatherReport();
+ultimateWeatherReport.Get(5,3);
+
+// Console.WriteLine(d);
+
+#endregion
 
 

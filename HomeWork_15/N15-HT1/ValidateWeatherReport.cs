@@ -8,15 +8,7 @@ namespace HomeWork_15.N15_HT1;
  */
 #endregion
 
-#region Logic
-/// <summary>
-/// WeatherReport calssdan vorislik olaman
-/// Add methodini override qilaman -> u weater datani foreach yordamida aylandi agar ma'lumot bor bo'lsa uni yangilaydi
-/// aks holda uni qo'shadi
-/// Constructor orqali 6 ta yangi data qo'shaman
-/// Datalar private dictionary-da saqlanadi
-/// </summary>
-#endregion
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -65,4 +57,6 @@ public class ValidateWeatherReport : WeatherReports
         else
             return resWeather.ToString();
     }
+
+
 }
