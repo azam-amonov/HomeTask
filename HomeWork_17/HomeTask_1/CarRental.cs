@@ -2,7 +2,12 @@ namespace HomeWork_17.HomeTask_1;
 
 public abstract class CarRental
 {
-    public int Id { get; set; }
+    // public List<CarRental> _carRentals = new List<CarRental>();
+    public int Id
+    {
+        get;
+        set;
+    }
     public bool IsRented { get; set; }
     public decimal Balance { get; set; }
     public string BrandName { get; set; }
@@ -14,6 +19,9 @@ public abstract class CarRental
         IsRented = false;
         BrandName = brandName;
         RentStartTime = DateTime.MinValue;
-        Id = Id++;
     }
+    
+
+
+
 }

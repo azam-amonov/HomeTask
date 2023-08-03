@@ -31,10 +31,20 @@ public class CarRentalManagement
 
     public void ReturnCar(CarRental car)
     {
-        car.IsRented = false;
-        var rentDuration = (int)(DateTime.Now - car.RentStartTime).TotalSeconds;
-        var rentPrice = (car is Bmw) ? (car as Bmw).RentPricePerHour : (car as Audi).RentPricePerHour;
-        car.Balance = rentDuration * rentPrice;
+        foreach (var c in _cars)
+        {
+            if (c.Id == car.Id)
+            {
+                car.IsRented = false;
+                var rentDuration = (int)(DateTime.Now - car.RentStartTime).TotalSeconds;
+                var rentPrice = (car is Bmw) ? (car as Bmw).RentPricePerHour : (car as Audi).RentPricePerHour;
+                car.Balance = rentDuration * rentPrice;
+            }
+            else
+            {
+                Console.WriteLine($"Couldn't find car with Id {car}");
+            }
+        }
     }
 
     public decimal CalculateManagement()
@@ -45,5 +55,14 @@ public class CarRentalManagement
             totalBalance += (decimal)car.Balance;
         }
         return totalBalance;
+    }
+
+    public void Display()
+    {
+        foreach (var car in _cars)
+        {
+            Console.WriteLine($"{car.Id}\n" +
+                              $"{car.BrandName}\n");
+        }
     }
 }
