@@ -2,7 +2,11 @@
 
 using System.ComponentModel.DataAnnotations;
 using HomeWork_19.N19_HT1_in_out;
+using HomeWork_19.N19_HT2_params_ref;
 
+Console.WriteLine("Dars 19");
+#region 1-Vazifa
+/*
 Console.WriteLine("Validation!");
 // Age validation!
 Console.WriteLine($"Age validation: {ValidatorService.IsValidAge(23)}");
@@ -23,3 +27,23 @@ Console.WriteLine( $"Phone Number validation: {ValidatorService.IsValidPhoneNumb
 Console.WriteLine( $"Phone Number validation: {ValidatorService.IsValidPhoneNumber(
                                 "+999(009uff000-00-00", 
                                 out var validPhoneNumberFormatF)}=> {validPhoneNumberFormatF}");
+
+*/
+#endregion
+
+#region 2-Vazifa
+
+int[] intArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
+int son = 123423509;
+Console.WriteLine($"Sum of array: {AggregationService.Sum(intArray)}");
+Console.WriteLine($"Min of array: {AggregationService.Min(intArray)}");
+Console.WriteLine($"Max of array: {AggregationService.Max(intArray)}");
+Console.WriteLine($"Average of array: {AggregationService.Average(intArray)}");
+
+AggregationService.Increment(ref son);
+Console.WriteLine($"Increment of int {son}");
+
+AggregationService.Decrement(ref son);
+Console.WriteLine($"Decrement of int {son}");
+
+#endregion
