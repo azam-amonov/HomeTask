@@ -4,9 +4,9 @@ public class UzumPaymentProvider : IPaymentProvider
 {
      public decimal TransferInterest { get; init; }
 
-    public UzumPaymentProvider(decimal transferInterest)
+    public UzumPaymentProvider(double transferInterest)
     {
-        TransferInterest = transferInterest;
+        TransferInterest = (decimal)transferInterest;
     }
     
     public void Transfer(IDebitCard sourceCard, IDebitCard destinationCard, decimal amount)

@@ -4,7 +4,7 @@ public class PaymePaymentProvider : IPaymentProvider
 {
     public decimal TransferInterest { get; init; }
     
-    public PaymePaymentProvider(decimal transferInterest = 1)
+    public PaymePaymentProvider(decimal transferInterest)
     {
         TransferInterest = transferInterest;
     }

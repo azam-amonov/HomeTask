@@ -1,24 +1,17 @@
 namespace HomeWork_22.N20_HT1.Service;
 
-// OnlineMarket servisidan foydalaning
-// unda quyidagi konstruktor bo'lsin
-// - OnlineMarket ( IPaymentProvider provider ) - bunda provider private readonly fieldga saqlansin
-//
-// unda quyidagi methodlar bo'lsin
-// - Add ( product ) - productlar qatoriga berilgan productni qo'shsin ) 
-// - Buy ( name, number, card ) - product lar ichidan berilgan nomdagi produktni berilgan sonda hisoblab, kartadan pul yechishni payment provider orqali amalga oshirsin
-//
 public class OnlineMarketService
 {
-    private readonly KapitalUzCard _card;
-    private readonly List<Product> _productsList;
-    private readonly UzumPaymentProvider _uzumPaymentProvider;
-    private readonly PaymePaymentProvider _paymePaymentProvider;
+    private List<Product> _productsList;
+    private readonly IDebitCard _card;
+    private readonly IPaymentProvider _paymentProvider;
 
-
-    public OnlineMarketService(IPaymentProvider provider)
+    public OnlineMarketService(IDebitCard card, IPaymentProvider provider)
     {
+        _card = card;
+        _paymentProvider = provider;
         _productsList = new List<Product>();
+        Add(new Product {Name = "Fresh", Price = 10});
 
     }
 
@@ -33,7 +26,9 @@ public class OnlineMarketService
 
     public void Buy(string nameOfProduct, int countOfProduct, IDebitCard card)
     {
-        var sumOfProduct = _productsList.FirstOrDefault(n => n.Name == nameOfProduct).Price * countOfProduct;
+        var sumOfProduct = _productsList.FirstOrDefault(n =>
+                        n.Name == nameOfProduct).Price * countOfProduct;
+        
         if (sumOfProduct is not 0)
             card.Balance -= (decimal)sumOfProduct;
     }
@@ -45,7 +40,8 @@ public class OnlineMarketService
             Console.WriteLine($"{product.Name}: {product.Price}$");
         }
     }
-    
+
+
 }
 
 
