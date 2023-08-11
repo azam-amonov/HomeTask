@@ -14,7 +14,7 @@ IPaymentProvider uzum = new UzumPaymentProvider(0.5);
 OnlineMarketService paymeMarket = new OnlineMarketService(marketCard ,payme);
 OnlineMarketService uzumMarket = new OnlineMarketService(marketCard, uzum);
 
-paymeMarket.Buy("Apple", 10, uzCard);
+paymeMarket.Buy("Apple", 10, uzCard);4
 
 Console.WriteLine(uzCard.Balance);
 paymeMarket.Display();
