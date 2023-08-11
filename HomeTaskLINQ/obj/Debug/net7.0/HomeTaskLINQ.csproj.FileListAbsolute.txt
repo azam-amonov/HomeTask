@@ -1,0 +1,15 @@
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/bin/Debug/net7.0/HomeTaskLINQ
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/bin/Debug/net7.0/HomeTaskLINQ.deps.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/bin/Debug/net7.0/HomeTaskLINQ.runtimeconfig.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/bin/Debug/net7.0/HomeTaskLINQ.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/bin/Debug/net7.0/HomeTaskLINQ.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/obj/Debug/net7.0/HomeTaskLINQ.csproj.AssemblyReference.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/obj/Debug/net7.0/HomeTaskLINQ.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/obj/Debug/net7.0/HomeTaskLINQ.AssemblyInfoInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/obj/Debug/net7.0/HomeTaskLINQ.AssemblyInfo.cs
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/obj/Debug/net7.0/HomeTaskLINQ.csproj.CoreCompileInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/obj/Debug/net7.0/HomeTaskLINQ.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/obj/Debug/net7.0/refint/HomeTaskLINQ.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/obj/Debug/net7.0/HomeTaskLINQ.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/obj/Debug/net7.0/HomeTaskLINQ.genruntimeconfig.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/obj/Debug/net7.0/ref/HomeTaskLINQ.dll
