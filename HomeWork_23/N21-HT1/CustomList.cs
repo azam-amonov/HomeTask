@@ -64,6 +64,21 @@ public class CustomList<T>
         }
     }
 
+    public bool Remove(T item)
+    {
+        var resList = new T[_index - 1];
+        for (int i = 0; i < _items.Length; i++)
+        {
+            
+        }
+        return false;
+    }
+
+    public void RemoveAt(uint pos)
+    {
+           
+    }
+
     private void EnsureCapacity(uint additionalCapacity = 1)
     {
         if(_index + additionalCapacity > _items.Length) return;
