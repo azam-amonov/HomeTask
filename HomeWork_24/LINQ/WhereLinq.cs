@@ -1,4 +1,4 @@
-namespace HomeTaskLINQ.LINQ;
+namespace HomeWork_24.LINQ;
 
 public class WhereLinq
 {

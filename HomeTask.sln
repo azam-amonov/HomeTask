@@ -60,7 +60,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_23", "HomeWork_23\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HT_24", "HT_24", "{33DC5CE7-F25F-4A6B-B009-AFD9C9C3E1DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeTaskLINQ", "HomeTaskLINQ\HomeTaskLINQ.csproj", "{A4E763C9-E5C7-4CBA-9AD1-E82FD77D52E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_24", "HomeWork_24\HomeWork_24.csproj", "{A4E763C9-E5C7-4CBA-9AD1-E82FD77D52E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

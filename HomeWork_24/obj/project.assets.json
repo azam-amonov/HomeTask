@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/HomeTaskLINQ.csproj",
-      "projectName": "HomeTaskLINQ",
-      "projectPath": "/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/HomeTaskLINQ.csproj",
+      "projectUniqueName": "/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_24/HomeWork_24.csproj",
+      "projectName": "HomeWork_24",
+      "projectPath": "/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_24/HomeWork_24.csproj",
       "packagesPath": "/Users/azamamonov/.nuget/packages/",
-      "outputPath": "/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTaskLINQ/obj/",
+      "outputPath": "/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_24/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/azamamonov/.nuget/NuGet/NuGet.Config"
