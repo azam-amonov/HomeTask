@@ -8,9 +8,9 @@ public interface IReviewList<in TReview> where TReview: IReview
     public void Update(int id, int star, string message);
     public void Remove(int id);
     public void Remove(TReview review);
-    public Review? GetReview(int id);
-    public Review? GetReview(string message);
-    public void GetOverallReviews();
+    public IReview? GetReview(int id);
+    public IReview? GetReview(string message);
+    public string GetOverallReviews();
     
 
 }

@@ -1,15 +1,15 @@
 namespace HomeWork_24.N22_HT2;
 
-public class ReviewList: IReviewList<Review>
+public class ReviewList<TReview>: IReviewList<IReview>
 {
-    private readonly List<Review> _reviews;
+    private readonly List<IReview> _reviews;
     
     public ReviewList()
     {
-      _reviews = new List<Review>();  
+      _reviews = new List<IReview>();  
     }
     
-    public void Add(Review review)
+    public void Add(IReview review)
     {
         _reviews.Add(review);
     }
@@ -31,28 +31,37 @@ public class ReviewList: IReviewList<Review>
         if (reviewToRemoveById != null) _reviews.Remove(reviewToRemoveById);
     }
 
-    public void Remove(Review review)
+    public void Remove(IReview review)
     {
         var removeReview = _reviews.FirstOrDefault(r => r.Id == review.Id);
         if (removeReview is not null) _reviews.Remove(removeReview);
     }
 
-    public Review? GetReview(int id)
+    public IReview? GetReview(int id)
     {
         var getReviewById =  _reviews.FirstOrDefault(r => r.Id == id);
         if (getReviewById is not null) return getReviewById;
         return null;
     }
 
-    public Review? GetReview(string message)
+    public IReview? GetReview(string message)
     {
        var getReviewByMessage = _reviews.FirstOrDefault(r => r.Message == message);
        if (getReviewByMessage is not null) return getReviewByMessage;
        return null;
     }
 
-    public void GetOverallReviews()
+    public string GetOverallReviews()
     {
-        throw new NotImplementedException();
+        if(_reviews.Count == 0)
+            return "Be the first to leave a review for this product";
+        
+        if (_reviews.All(x => x.Star == 5))
+            return "Great news! All reviews for this product are 5-star ratings.";
+        
+        if (_reviews.Any(x => x.Star == 1))
+            return _reviews.FirstOrDefault(r => r.Star == 1).Message;
+        
+        return "Sorry, there is no any review for this product";
     }
 }
