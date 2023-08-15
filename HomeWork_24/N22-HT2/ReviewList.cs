@@ -13,7 +13,7 @@ public class ReviewList<TReview>: IReviewList<IReview>
     {
         _reviews.Add(review);
     }
-
+    
     public void Update(int id, int star, string message)
     {
         var reviewToUpdate = _reviews.FirstOrDefault(x => x.Id == id);
@@ -24,7 +24,7 @@ public class ReviewList<TReview>: IReviewList<IReview>
         }
 
     }
-
+    
     public void Remove(int id)
     {
         var reviewToRemoveById = _reviews.FirstOrDefault(x => x.Id == id);
