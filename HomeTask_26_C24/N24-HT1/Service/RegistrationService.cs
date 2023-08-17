@@ -2,21 +2,27 @@ namespace HomeTask_26_C24.N24_HT1.Service;
 
 public class RegistrationService
 {
-    private IUserService _userService;
-    private IUserCredentialService _userCredentialService;
-    private List<User> _users;
+    private readonly IUserService _userService;
+    private readonly IUserCredentialService _userCredentialService;
 
     public RegistrationService(IUserService userService, IUserCredentialService userCredentialService)
     {
         _userService = userService;
         _userCredentialService = userCredentialService;
-        _users = new List<User>();
     }
     
 
-    public void Register(string firstName, string lastName, string emailAddress, string password)
+    public bool Register(string firstName, string lastName, string emailAddress, string password)
     {
-        _userService.Add(firstName, lastName, emailAddress);
-        _userCredentialService.Add(1, password);
+        try
+        {
+            var user = _userService.Add(firstName, lastName, emailAddress);
+            _userCredentialService.Add(user.UserId, password);
+            return true;
+        }
+        catch
+        {
+            return false;
+        }
     }
 }

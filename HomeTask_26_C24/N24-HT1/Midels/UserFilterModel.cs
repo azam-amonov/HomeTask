@@ -4,11 +4,13 @@ public class UserFilterModel: FilterModel
 {
     public string? FirstName { get; set; }
     public string? LastName { get; set; }
-    
-    public UserFilterModel(int? pageSize, int? pageToken,string? firstName, string?
-                    lastName) : base(pageSize, pageToken)
+
+    public UserFilterModel(int pageSize, int pageToken, string? firstName, string? lastName)
+                    : base(pageSize, pageToken)
     {
         FirstName = firstName;
         LastName = lastName;
+        PageToken = pageToken;
+        PageSize = pageSize;
     }
 }
