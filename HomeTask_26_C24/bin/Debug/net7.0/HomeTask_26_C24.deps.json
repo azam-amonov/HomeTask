@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HomeTask_26_C24/1.0.0": {
+        "runtime": {
+          "HomeTask_26_C24.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HomeTask_26_C24/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

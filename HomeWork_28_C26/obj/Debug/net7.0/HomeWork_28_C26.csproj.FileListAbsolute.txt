@@ -1,0 +1,15 @@
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/bin/Debug/net7.0/HomeWork_28_C26
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/bin/Debug/net7.0/HomeWork_28_C26.deps.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/bin/Debug/net7.0/HomeWork_28_C26.runtimeconfig.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/bin/Debug/net7.0/HomeWork_28_C26.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/bin/Debug/net7.0/HomeWork_28_C26.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/obj/Debug/net7.0/HomeWork_28_C26.csproj.AssemblyReference.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/obj/Debug/net7.0/HomeWork_28_C26.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/obj/Debug/net7.0/HomeWork_28_C26.AssemblyInfoInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/obj/Debug/net7.0/HomeWork_28_C26.AssemblyInfo.cs
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/obj/Debug/net7.0/HomeWork_28_C26.csproj.CoreCompileInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/obj/Debug/net7.0/HomeWork_28_C26.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/obj/Debug/net7.0/refint/HomeWork_28_C26.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/obj/Debug/net7.0/HomeWork_28_C26.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/obj/Debug/net7.0/HomeWork_28_C26.genruntimeconfig.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeWork_28_C26/obj/Debug/net7.0/ref/HomeWork_28_C26.dll

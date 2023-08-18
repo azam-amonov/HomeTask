@@ -1,0 +1,15 @@
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/bin/Debug/net7.0/HomeTask_26_C24
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/bin/Debug/net7.0/HomeTask_26_C24.deps.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/bin/Debug/net7.0/HomeTask_26_C24.runtimeconfig.json
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/bin/Debug/net7.0/HomeTask_26_C24.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/bin/Debug/net7.0/HomeTask_26_C24.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/obj/Debug/net7.0/HomeTask_26_C24.csproj.AssemblyReference.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/obj/Debug/net7.0/HomeTask_26_C24.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/obj/Debug/net7.0/HomeTask_26_C24.AssemblyInfoInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/obj/Debug/net7.0/HomeTask_26_C24.AssemblyInfo.cs
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/obj/Debug/net7.0/HomeTask_26_C24.csproj.CoreCompileInputs.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/obj/Debug/net7.0/HomeTask_26_C24.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/obj/Debug/net7.0/refint/HomeTask_26_C24.dll
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/obj/Debug/net7.0/HomeTask_26_C24.pdb
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/obj/Debug/net7.0/HomeTask_26_C24.genruntimeconfig.cache
+/Users/azamamonov/RiderProjects/BootCampdotNET/HomeTask/HomeTask_26_C24/obj/Debug/net7.0/ref/HomeTask_26_C24.dll
