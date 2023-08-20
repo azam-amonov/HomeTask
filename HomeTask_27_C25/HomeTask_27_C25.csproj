@@ -7,8 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="N25_HT1\" />
-    </ItemGroup>
+
+
+
+
 
 </Project>

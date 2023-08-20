@@ -7,7 +7,6 @@ public class Money
     private MoneyType MoneyType { get; set; }
     private Currency Currency { get; set; }
     
-
     public Money()
     {
         _moneyList = new List<Money>
