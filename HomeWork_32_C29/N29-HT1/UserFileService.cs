@@ -2,22 +2,39 @@ namespace HomeWork_32_C29.N29_HT1;
 
 public class UserFileService
 {
-    List<string> _userNames = new List<string>();
+    private readonly List<string> _userNames;
     
-    static string CurrentDirectory = Directory.GetCurrentDirectory();
-    static string _directoryPath = Directory.GetParent(CurrentDirectory).Parent.Parent.ToString();
-    string _directoryToSaveFile = Path.Combine(_directoryPath,"N29-HT1","file.txt");
- 
-    // var currentDirectory = Directory.GetCurrentDirectory();
-    // var parentDirectory = Directory.GetParent(currentDirectory).Parent.Parent.ToString();
-    // var myFileInProjectDirectory = Path.Combine(parentDirectory,"N29-HT1", "myTxtFile.txt");
+    static readonly string CurrentDirectory = Directory.GetCurrentDirectory();
+    static readonly string DirectoryPath = Directory.GetParent(CurrentDirectory).Parent.Parent.ToString();
 
-    public void PrintDirectory()
+    public UserFileService()
     {
-        Console.WriteLine(CurrentDirectory);
-        Console.WriteLine(_directoryPath);
-        Console.WriteLine(_directoryToSaveFile);
-        // File.Create(_directoryToSaveFile);
+        _userNames = new List<string>
+        {
+            "John",
+            "Philipp",
+            "Annabel",
+            "Smith",
+            "Jennifer"
+        };
     }
+
+    public async Task CreateFilesForUsers()
+    {
+        var createFilesTasks = _userNames.Select(user => Task.Run(() =>
+        {
+            string directoryToSaveFile = Path.Combine(DirectoryPath,"N29-HT1",$"{user.ToLower()}.txt");
+            var fileStream = File.Create(directoryToSaveFile);
+            return fileStream;
+        })).ToList();
+        
+        await Task.WhenAll(createFilesTasks);
+
+        foreach (var user in createFilesTasks)
+        {
+            Console.WriteLine($"Creating files for {user.GetType().Name}");
+        }
+    }
+    
     
 }
